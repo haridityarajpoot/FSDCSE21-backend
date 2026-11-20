@@ -1,6 +1,6 @@
 //Experiment 7 and 8
 
-<!-- 
+
 test> show collections
 
 test> show colllections
@@ -101,4 +101,4 @@ studentDB> db.students.deleteOne({ rollNo: 4 })
 { acknowledged: true, deletedCount: 1 }
 studentDB> db.students.find({age : {$gt : 20}})
 
-studentDB> -->
+studentDB>
